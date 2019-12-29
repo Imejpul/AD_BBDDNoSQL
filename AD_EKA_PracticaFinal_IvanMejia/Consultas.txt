@@ -1,0 +1,4 @@
+update delete /ListaPilotos/pilotos/Piloto[CODPILOTO=99]
+update insert <Moto><CODMOTO>199</CODMOTO><MARCA>BULTACO</MARCA><MODELO>FRONTERA</MODELO><CILINDRADA>299</CILINDRADA><EQUIPO>CBRT</EQUIPO><CODPILOTO>555</CODPILOTO></Moto> into /ListaMotos/motos
+/ListaMotos/motos/Moto[CODMOTO=199]
+update delete /ListaMotos/motos/Moto[CODMOTO=199]
